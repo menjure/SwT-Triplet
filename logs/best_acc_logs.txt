@@ -1,0 +1,115 @@
+[2023-06-24 23:19:42,498], ## using 288 images for training, 144 images fot testidation.
+[2023-06-24 23:19:42,499], ## data_root: datasets/Cattle_12
+[2023-06-24 23:19:42,499], ## train_ratio_txt: dataset_split67.txt
+[2023-06-24 23:19:42,499], ## batch_size: 8
+[2023-06-24 23:19:42,499], ## model_path: weights/swin_small_patch4_window7_224.pth
+[2023-06-24 23:19:42,499], ## learn_rate: 0.0005
+[2023-06-24 23:19:42,499], ## embedding_size: 128
+[2023-06-24 23:19:42,500], ## weight_decay: 0.0005
+[2023-06-24 23:19:42,500], ## lambda_factor: 1
+[2023-06-24 23:19:42,500], ## triplet_margin: 0.5
+[2023-06-24 23:19:42,500], ## epochs: 100
+[2023-06-24 23:19:42,500], ## eval_freq: 1
+[2023-06-24 23:19:42,501], ## save_folder: weights
+[2023-06-24 23:19:42,501], ## log_folder: logs
+[2023-06-24 23:19:42,501], ## save_embeddings: False
+[2023-06-24 23:21:26,753], ## epoch: 1/100 loss: 5.5579 triplet_loss: 3.0664 softmax_loss: 2.4914 ap_distances: 2.421 an_distances: 1.984 test_acc: 51.389% best_acc: 51.389%
+[2023-06-24 23:23:09,235], ## epoch: 2/100 loss: 4.7501 triplet_loss: 2.3049 softmax_loss: 2.4452 ap_distances: 1.251 an_distances: 1.061 test_acc: 56.250% best_acc: 56.250%
+[2023-06-24 23:24:50,909], ## epoch: 3/100 loss: 4.6011 triplet_loss: 2.1935 softmax_loss: 2.4076 ap_distances: 1.258 an_distances: 1.139 test_acc: 64.583% best_acc: 64.583%
+[2023-06-24 23:26:33,882], ## epoch: 4/100 loss: 4.4318 triplet_loss: 2.0815 softmax_loss: 2.3503 ap_distances: 1.143 an_distances: 1.112 test_acc: 73.611% best_acc: 73.611%
+[2023-06-24 23:28:16,991], ## epoch: 5/100 loss: 4.3419 triplet_loss: 2.0640 softmax_loss: 2.2779 ap_distances: 1.101 an_distances: 1.075 test_acc: 71.528% best_acc: 73.611%
+[2023-06-24 23:30:00,310], ## epoch: 6/100 loss: 4.2495 triplet_loss: 2.0592 softmax_loss: 2.1902 ap_distances: 1.105 an_distances: 1.076 test_acc: 74.306% best_acc: 74.306%
+[2023-06-24 23:31:44,203], ## epoch: 7/100 loss: 4.1383 triplet_loss: 2.0440 softmax_loss: 2.0943 ap_distances: 1.125 an_distances: 1.122 test_acc: 77.083% best_acc: 77.083%
+[2023-06-24 23:33:27,511], ## epoch: 8/100 loss: 3.9228 triplet_loss: 1.9706 softmax_loss: 1.9522 ap_distances: 1.061 an_distances: 1.139 test_acc: 81.250% best_acc: 81.250%
+[2023-06-24 23:35:09,730], ## epoch: 9/100 loss: 3.8029 triplet_loss: 2.0017 softmax_loss: 1.8012 ap_distances: 1.033 an_distances: 1.082 test_acc: 81.250% best_acc: 81.250%
+[2023-06-24 23:36:50,298], ## epoch: 10/100 loss: 3.5853 triplet_loss: 1.9297 softmax_loss: 1.6557 ap_distances: 1.003 an_distances: 1.117 test_acc: 84.028% best_acc: 84.028%
+[2023-06-24 23:38:29,636], ## epoch: 11/100 loss: 3.4208 triplet_loss: 1.8927 softmax_loss: 1.5281 ap_distances: 1.013 an_distances: 1.214 test_acc: 79.167% best_acc: 84.028%
+[2023-06-24 23:40:09,763], ## epoch: 12/100 loss: 3.1896 triplet_loss: 1.7616 softmax_loss: 1.4280 ap_distances: 0.961 an_distances: 1.308 test_acc: 80.556% best_acc: 84.028%
+[2023-06-24 23:41:49,637], ## epoch: 13/100 loss: 3.1160 triplet_loss: 1.7983 softmax_loss: 1.3177 ap_distances: 0.938 an_distances: 1.248 test_acc: 82.639% best_acc: 84.028%
+[2023-06-24 23:43:28,858], ## epoch: 14/100 loss: 3.0346 triplet_loss: 1.8012 softmax_loss: 1.2335 ap_distances: 0.976 an_distances: 1.277 test_acc: 84.722% best_acc: 84.722%
+[2023-06-24 23:45:10,290], ## epoch: 15/100 loss: 2.9558 triplet_loss: 1.8037 softmax_loss: 1.1521 ap_distances: 0.972 an_distances: 1.265 test_acc: 81.250% best_acc: 84.722%
+[2023-06-24 23:46:50,265], ## epoch: 16/100 loss: 2.7230 triplet_loss: 1.6612 softmax_loss: 1.0618 ap_distances: 0.894 an_distances: 1.415 test_acc: 88.194% best_acc: 88.194%
+[2023-06-24 23:48:30,963], ## epoch: 17/100 loss: 2.7185 triplet_loss: 1.7209 softmax_loss: 0.9977 ap_distances: 0.915 an_distances: 1.327 test_acc: 85.417% best_acc: 88.194%
+[2023-06-24 23:50:11,657], ## epoch: 18/100 loss: 2.5356 triplet_loss: 1.6099 softmax_loss: 0.9257 ap_distances: 0.887 an_distances: 1.494 test_acc: 89.583% best_acc: 89.583%
+[2023-06-24 23:51:51,026], ## epoch: 19/100 loss: 2.4439 triplet_loss: 1.5930 softmax_loss: 0.8509 ap_distances: 0.861 an_distances: 1.502 test_acc: 88.194% best_acc: 89.583%
+[2023-06-24 23:53:30,768], ## epoch: 20/100 loss: 2.3031 triplet_loss: 1.5102 softmax_loss: 0.7929 ap_distances: 0.823 an_distances: 1.570 test_acc: 87.500% best_acc: 89.583%
+[2023-06-24 23:55:11,459], ## epoch: 21/100 loss: 2.2897 triplet_loss: 1.5418 softmax_loss: 0.7479 ap_distances: 0.840 an_distances: 1.521 test_acc: 88.194% best_acc: 89.583%
+[2023-06-24 23:56:49,382], ## epoch: 22/100 loss: 2.1839 triplet_loss: 1.4909 softmax_loss: 0.6930 ap_distances: 0.819 an_distances: 1.606 test_acc: 86.806% best_acc: 89.583%
+[2023-06-24 23:58:23,210], ## epoch: 23/100 loss: 2.0491 triplet_loss: 1.3984 softmax_loss: 0.6507 ap_distances: 0.769 an_distances: 1.694 test_acc: 90.972% best_acc: 90.972%
+[2023-06-24 23:59:55,118], ## epoch: 24/100 loss: 2.0358 triplet_loss: 1.4157 softmax_loss: 0.6201 ap_distances: 0.789 an_distances: 1.698 test_acc: 89.583% best_acc: 90.972%
+[2023-06-25 00:01:27,712], ## epoch: 25/100 loss: 1.9092 triplet_loss: 1.3359 softmax_loss: 0.5733 ap_distances: 0.732 an_distances: 1.762 test_acc: 90.972% best_acc: 90.972%
+[2023-06-25 00:03:00,053], ## epoch: 26/100 loss: 1.8884 triplet_loss: 1.3401 softmax_loss: 0.5482 ap_distances: 0.745 an_distances: 1.788 test_acc: 89.583% best_acc: 90.972%
+[2023-06-25 00:04:33,695], ## epoch: 27/100 loss: 1.7766 triplet_loss: 1.2657 softmax_loss: 0.5109 ap_distances: 0.690 an_distances: 1.808 test_acc: 91.667% best_acc: 91.667%
+[2023-06-25 00:06:06,871], ## epoch: 28/100 loss: 1.7796 triplet_loss: 1.2920 softmax_loss: 0.4876 ap_distances: 0.704 an_distances: 1.796 test_acc: 93.056% best_acc: 93.056%
+[2023-06-25 00:07:40,562], ## epoch: 29/100 loss: 1.7679 triplet_loss: 1.3086 softmax_loss: 0.4594 ap_distances: 0.704 an_distances: 1.778 test_acc: 91.667% best_acc: 93.056%
+[2023-06-25 00:09:13,144], ## epoch: 30/100 loss: 1.6670 triplet_loss: 1.2316 softmax_loss: 0.4353 ap_distances: 0.672 an_distances: 1.866 test_acc: 94.444% best_acc: 94.444%
+[2023-06-25 00:10:45,184], ## epoch: 31/100 loss: 1.6244 triplet_loss: 1.2069 softmax_loss: 0.4175 ap_distances: 0.669 an_distances: 1.919 test_acc: 90.278% best_acc: 94.444%
+[2023-06-25 00:12:17,900], ## epoch: 32/100 loss: 1.5646 triplet_loss: 1.1705 softmax_loss: 0.3941 ap_distances: 0.647 an_distances: 1.966 test_acc: 93.056% best_acc: 94.444%
+[2023-06-25 00:13:50,468], ## epoch: 33/100 loss: 1.5983 triplet_loss: 1.2181 softmax_loss: 0.3802 ap_distances: 0.669 an_distances: 1.922 test_acc: 93.750% best_acc: 94.444%
+[2023-06-25 00:15:22,444], ## epoch: 34/100 loss: 1.5321 triplet_loss: 1.1711 softmax_loss: 0.3610 ap_distances: 0.647 an_distances: 1.973 test_acc: 93.750% best_acc: 94.444%
+[2023-06-25 00:16:55,964], ## epoch: 35/100 loss: 1.4908 triplet_loss: 1.1480 softmax_loss: 0.3428 ap_distances: 0.634 an_distances: 1.996 test_acc: 92.361% best_acc: 94.444%
+[2023-06-25 00:18:28,240], ## epoch: 36/100 loss: 1.4680 triplet_loss: 1.1374 softmax_loss: 0.3306 ap_distances: 0.632 an_distances: 2.047 test_acc: 93.056% best_acc: 94.444%
+[2023-06-25 00:20:00,301], ## epoch: 37/100 loss: 1.4821 triplet_loss: 1.1630 softmax_loss: 0.3191 ap_distances: 0.634 an_distances: 1.988 test_acc: 92.361% best_acc: 94.444%
+[2023-06-25 00:21:33,905], ## epoch: 38/100 loss: 1.4303 triplet_loss: 1.1269 softmax_loss: 0.3034 ap_distances: 0.619 an_distances: 2.031 test_acc: 93.056% best_acc: 94.444%
+[2023-06-25 00:23:06,859], ## epoch: 39/100 loss: 1.4219 triplet_loss: 1.1305 softmax_loss: 0.2914 ap_distances: 0.617 an_distances: 2.032 test_acc: 93.056% best_acc: 94.444%
+[2023-06-25 00:24:39,832], ## epoch: 40/100 loss: 1.3807 triplet_loss: 1.1007 softmax_loss: 0.2800 ap_distances: 0.604 an_distances: 2.078 test_acc: 94.444% best_acc: 94.444%
+[2023-06-25 00:26:12,368], ## epoch: 41/100 loss: 1.3704 triplet_loss: 1.1018 softmax_loss: 0.2686 ap_distances: 0.609 an_distances: 2.096 test_acc: 95.833% best_acc: 95.833%
+[2023-06-25 00:27:45,919], ## epoch: 42/100 loss: 1.3357 triplet_loss: 1.0777 softmax_loss: 0.2580 ap_distances: 0.590 an_distances: 2.106 test_acc: 95.833% best_acc: 95.833%
+[2023-06-25 00:29:20,011], ## epoch: 43/100 loss: 1.3126 triplet_loss: 1.0650 softmax_loss: 0.2476 ap_distances: 0.585 an_distances: 2.135 test_acc: 95.833% best_acc: 95.833%
+[2023-06-25 00:30:51,844], ## epoch: 44/100 loss: 1.3365 triplet_loss: 1.0932 softmax_loss: 0.2433 ap_distances: 0.603 an_distances: 2.117 test_acc: 94.444% best_acc: 95.833%
+[2023-06-25 00:32:24,244], ## epoch: 45/100 loss: 1.2774 triplet_loss: 1.0450 softmax_loss: 0.2324 ap_distances: 0.571 an_distances: 2.171 test_acc: 95.139% best_acc: 95.833%
+[2023-06-25 00:33:57,862], ## epoch: 46/100 loss: 1.2757 triplet_loss: 1.0501 softmax_loss: 0.2256 ap_distances: 0.581 an_distances: 2.186 test_acc: 95.139% best_acc: 95.833%
+[2023-06-25 00:35:31,027], ## epoch: 47/100 loss: 1.2672 triplet_loss: 1.0509 softmax_loss: 0.2163 ap_distances: 0.579 an_distances: 2.190 test_acc: 95.139% best_acc: 95.833%
+[2023-06-25 00:37:04,323], ## epoch: 48/100 loss: 1.2535 triplet_loss: 1.0430 softmax_loss: 0.2104 ap_distances: 0.571 an_distances: 2.190 test_acc: 95.139% best_acc: 95.833%
+[2023-06-25 00:38:38,631], ## epoch: 49/100 loss: 1.2694 triplet_loss: 1.0660 softmax_loss: 0.2034 ap_distances: 0.600 an_distances: 2.219 test_acc: 95.833% best_acc: 95.833%
+[2023-06-25 00:40:12,260], ## epoch: 50/100 loss: 1.2155 triplet_loss: 1.0183 softmax_loss: 0.1972 ap_distances: 0.563 an_distances: 2.253 test_acc: 95.139% best_acc: 95.833%
+[2023-06-25 00:41:49,800], ## epoch: 51/100 loss: 1.1909 triplet_loss: 0.9989 softmax_loss: 0.1920 ap_distances: 0.549 an_distances: 2.286 test_acc: 96.528% best_acc: 96.528%
+[2023-06-25 00:43:26,196], ## epoch: 52/100 loss: 1.1878 triplet_loss: 1.0008 softmax_loss: 0.1871 ap_distances: 0.551 an_distances: 2.286 test_acc: 95.833% best_acc: 96.528%
+[2023-06-25 00:45:01,540], ## epoch: 53/100 loss: 1.1813 triplet_loss: 0.9995 softmax_loss: 0.1818 ap_distances: 0.550 an_distances: 2.288 test_acc: 95.139% best_acc: 96.528%
+[2023-06-25 00:46:35,961], ## epoch: 54/100 loss: 1.1610 triplet_loss: 0.9866 softmax_loss: 0.1744 ap_distances: 0.544 an_distances: 2.307 test_acc: 95.833% best_acc: 96.528%
+[2023-06-25 00:48:09,796], ## epoch: 55/100 loss: 1.1509 triplet_loss: 0.9795 softmax_loss: 0.1713 ap_distances: 0.533 an_distances: 2.307 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 00:49:42,435], ## epoch: 56/100 loss: 1.1366 triplet_loss: 0.9702 softmax_loss: 0.1664 ap_distances: 0.532 an_distances: 2.348 test_acc: 95.833% best_acc: 97.222%
+[2023-06-25 00:51:16,156], ## epoch: 57/100 loss: 1.1976 triplet_loss: 1.0316 softmax_loss: 0.1660 ap_distances: 0.564 an_distances: 2.271 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 00:52:49,982], ## epoch: 58/100 loss: 1.1046 triplet_loss: 0.9480 softmax_loss: 0.1565 ap_distances: 0.515 an_distances: 2.373 test_acc: 96.528% best_acc: 97.222%
+[2023-06-25 00:54:23,589], ## epoch: 59/100 loss: 1.1239 triplet_loss: 0.9673 softmax_loss: 0.1566 ap_distances: 0.534 an_distances: 2.366 test_acc: 96.528% best_acc: 97.222%
+[2023-06-25 00:55:57,686], ## epoch: 60/100 loss: 1.0827 triplet_loss: 0.9329 softmax_loss: 0.1499 ap_distances: 0.501 an_distances: 2.375 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 00:57:32,281], ## epoch: 61/100 loss: 1.1245 triplet_loss: 0.9738 softmax_loss: 0.1507 ap_distances: 0.526 an_distances: 2.343 test_acc: 94.444% best_acc: 97.222%
+[2023-06-25 00:59:06,943], ## epoch: 62/100 loss: 1.1089 triplet_loss: 0.9623 softmax_loss: 0.1466 ap_distances: 0.529 an_distances: 2.380 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:00:43,232], ## epoch: 63/100 loss: 1.0799 triplet_loss: 0.9388 softmax_loss: 0.1411 ap_distances: 0.508 an_distances: 2.392 test_acc: 94.444% best_acc: 97.222%
+[2023-06-25 01:02:21,155], ## epoch: 64/100 loss: 1.0603 triplet_loss: 0.9221 softmax_loss: 0.1381 ap_distances: 0.511 an_distances: 2.493 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:03:56,928], ## epoch: 65/100 loss: 1.0555 triplet_loss: 0.9202 softmax_loss: 0.1353 ap_distances: 0.499 an_distances: 2.449 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:05:30,220], ## epoch: 66/100 loss: 1.0539 triplet_loss: 0.9224 softmax_loss: 0.1315 ap_distances: 0.500 an_distances: 2.445 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:07:04,089], ## epoch: 67/100 loss: 1.0429 triplet_loss: 0.9130 softmax_loss: 0.1298 ap_distances: 0.500 an_distances: 2.487 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:08:38,850], ## epoch: 68/100 loss: 1.0915 triplet_loss: 0.9618 softmax_loss: 0.1297 ap_distances: 0.528 an_distances: 2.390 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:10:13,223], ## epoch: 69/100 loss: 1.0378 triplet_loss: 0.9141 softmax_loss: 0.1236 ap_distances: 0.494 an_distances: 2.458 test_acc: 97.222% best_acc: 97.222%
+[2023-06-25 01:11:47,884], ## epoch: 70/100 loss: 0.9965 triplet_loss: 0.8767 softmax_loss: 0.1199 ap_distances: 0.465 an_distances: 2.493 test_acc: 97.917% best_acc: 97.917%
+[2023-06-25 01:13:23,371], ## epoch: 71/100 loss: 1.0218 triplet_loss: 0.9032 softmax_loss: 0.1185 ap_distances: 0.492 an_distances: 2.508 test_acc: 97.222% best_acc: 97.917%
+[2023-06-25 01:14:58,236], ## epoch: 72/100 loss: 0.9917 triplet_loss: 0.8765 softmax_loss: 0.1151 ap_distances: 0.474 an_distances: 2.554 test_acc: 97.917% best_acc: 97.917%
+[2023-06-25 01:16:32,585], ## epoch: 73/100 loss: 1.0014 triplet_loss: 0.8877 softmax_loss: 0.1137 ap_distances: 0.484 an_distances: 2.548 test_acc: 97.917% best_acc: 97.917%
+[2023-06-25 01:18:08,239], ## epoch: 74/100 loss: 0.9974 triplet_loss: 0.8868 softmax_loss: 0.1106 ap_distances: 0.482 an_distances: 2.545 test_acc: 96.528% best_acc: 97.917%
+[2023-06-25 01:19:42,788], ## epoch: 75/100 loss: 0.9840 triplet_loss: 0.8748 softmax_loss: 0.1092 ap_distances: 0.479 an_distances: 2.598 test_acc: 96.528% best_acc: 97.917%
+[2023-06-25 01:21:18,169], ## epoch: 76/100 loss: 0.9741 triplet_loss: 0.8661 softmax_loss: 0.1079 ap_distances: 0.472 an_distances: 2.608 test_acc: 97.917% best_acc: 97.917%
+[2023-06-25 01:22:53,377], ## epoch: 77/100 loss: 0.9770 triplet_loss: 0.8702 softmax_loss: 0.1068 ap_distances: 0.471 an_distances: 2.582 test_acc: 97.917% best_acc: 97.917%
+[2023-06-25 01:24:28,092], ## epoch: 78/100 loss: 0.9823 triplet_loss: 0.8747 softmax_loss: 0.1076 ap_distances: 0.481 an_distances: 2.614 test_acc: 97.222% best_acc: 97.917%
+[2023-06-25 01:26:03,670], ## epoch: 79/100 loss: 0.9733 triplet_loss: 0.8700 softmax_loss: 0.1033 ap_distances: 0.471 an_distances: 2.584 test_acc: 97.917% best_acc: 97.917%
+[2023-06-25 01:27:38,764], ## epoch: 80/100 loss: 0.9700 triplet_loss: 0.8684 softmax_loss: 0.1016 ap_distances: 0.474 an_distances: 2.617 test_acc: 96.528% best_acc: 97.917%
+[2023-06-25 01:29:13,462], ## epoch: 81/100 loss: 0.9455 triplet_loss: 0.8465 softmax_loss: 0.0990 ap_distances: 0.461 an_distances: 2.669 test_acc: 98.611% best_acc: 98.611%
+[2023-06-25 01:30:49,043], ## epoch: 82/100 loss: 0.9595 triplet_loss: 0.8604 softmax_loss: 0.0990 ap_distances: 0.467 an_distances: 2.616 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:32:23,284], ## epoch: 83/100 loss: 0.9474 triplet_loss: 0.8495 softmax_loss: 0.0979 ap_distances: 0.467 an_distances: 2.689 test_acc: 97.917% best_acc: 98.611%
+[2023-06-25 01:33:59,269], ## epoch: 84/100 loss: 0.9250 triplet_loss: 0.8313 softmax_loss: 0.0936 ap_distances: 0.448 an_distances: 2.684 test_acc: 95.833% best_acc: 98.611%
+[2023-06-25 01:35:34,911], ## epoch: 85/100 loss: 0.9287 triplet_loss: 0.8350 softmax_loss: 0.0937 ap_distances: 0.457 an_distances: 2.713 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:37:10,159], ## epoch: 86/100 loss: 0.9218 triplet_loss: 0.8307 softmax_loss: 0.0911 ap_distances: 0.451 an_distances: 2.709 test_acc: 97.917% best_acc: 98.611%
+[2023-06-25 01:38:46,332], ## epoch: 87/100 loss: 0.9134 triplet_loss: 0.8241 softmax_loss: 0.0893 ap_distances: 0.444 an_distances: 2.708 test_acc: 96.528% best_acc: 98.611%
+[2023-06-25 01:40:21,501], ## epoch: 88/100 loss: 0.9133 triplet_loss: 0.8236 softmax_loss: 0.0897 ap_distances: 0.446 an_distances: 2.729 test_acc: 96.528% best_acc: 98.611%
+[2023-06-25 01:41:56,312], ## epoch: 89/100 loss: 0.9230 triplet_loss: 0.8329 softmax_loss: 0.0901 ap_distances: 0.462 an_distances: 2.775 test_acc: 96.528% best_acc: 98.611%
+[2023-06-25 01:43:32,143], ## epoch: 90/100 loss: 0.9029 triplet_loss: 0.8171 softmax_loss: 0.0858 ap_distances: 0.441 an_distances: 2.747 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:45:08,423], ## epoch: 91/100 loss: 0.9173 triplet_loss: 0.8322 softmax_loss: 0.0851 ap_distances: 0.460 an_distances: 2.757 test_acc: 97.917% best_acc: 98.611%
+[2023-06-25 01:46:44,838], ## epoch: 92/100 loss: 0.8805 triplet_loss: 0.7968 softmax_loss: 0.0837 ap_distances: 0.429 an_distances: 2.797 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:48:20,409], ## epoch: 93/100 loss: 0.8907 triplet_loss: 0.8075 softmax_loss: 0.0832 ap_distances: 0.434 an_distances: 2.762 test_acc: 97.917% best_acc: 98.611%
+[2023-06-25 01:49:55,895], ## epoch: 94/100 loss: 0.8953 triplet_loss: 0.8124 softmax_loss: 0.0829 ap_distances: 0.441 an_distances: 2.781 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:51:31,930], ## epoch: 95/100 loss: 0.8813 triplet_loss: 0.7998 softmax_loss: 0.0815 ap_distances: 0.428 an_distances: 2.777 test_acc: 96.528% best_acc: 98.611%
+[2023-06-25 01:53:09,530], ## epoch: 96/100 loss: 0.8795 triplet_loss: 0.8004 softmax_loss: 0.0791 ap_distances: 0.435 an_distances: 2.816 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:54:44,752], ## epoch: 97/100 loss: 0.8820 triplet_loss: 0.8008 softmax_loss: 0.0811 ap_distances: 0.435 an_distances: 2.826 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:56:19,740], ## epoch: 98/100 loss: 0.8578 triplet_loss: 0.7798 softmax_loss: 0.0779 ap_distances: 0.421 an_distances: 2.867 test_acc: 97.222% best_acc: 98.611%
+[2023-06-25 01:57:54,988], ## epoch: 99/100 loss: 0.8673 triplet_loss: 0.7900 softmax_loss: 0.0773 ap_distances: 0.433 an_distances: 2.886 test_acc: 96.528% best_acc: 98.611%
+[2023-06-25 01:59:29,926], ## epoch: 100/100 loss: 0.8662 triplet_loss: 0.7894 softmax_loss: 0.0768 ap_distances: 0.431 an_distances: 2.867 test_acc: 97.222% best_acc: 98.611%
