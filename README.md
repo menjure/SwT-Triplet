@@ -39,17 +39,5 @@ python test.py --model_path weights/best_acc_weights.pth
 If you use our code or dataset in your research, please cite with:
 
 ```(python)
-@article{math10203856,
-  author = {Zhong, Minyue and Tan, Yao and Li, Jie and Zhang, Hongming and Yu, Siyi},
-  title = {Cattle Number Estimation on Smart Pasture Based on Multi-Scale Information Fusion},
-  journal = {Mathematics},
-  volume = {10},
-  year = {2022},
-  number = {20},
-}
 
-@article{,
-  author = {Minyue Zhong, Yao Tan, Yang Long, Jie Li},
-  title = {A Method for Recognition of Cattle Noseprint based fusing Swin Transformer and Triplet Network},
-}
 ```
