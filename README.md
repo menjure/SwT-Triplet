@@ -12,7 +12,7 @@ Simply clone this repository to your desired local directory: `git clone https:/
 
 ## Data preparation
 
-Download the cattle noseprint dataset from [here](https://pan.baidu.com/s/1K9o-KhLYBdJtu-H6Okbm2Q), password: `rj6y`. Unzip the file and put it in `datasets/crop_nose_images/`.
+Download the cattle noseprint dataset from [here](https://pan.baidu.com/s/1K9o-KhLYBdJtu-H6Okbm2Q), password: `rj6y`. Unzip the file and put it in `datasets/Cattle_12/crop_nose_images/`.
 
 ## Train
 
