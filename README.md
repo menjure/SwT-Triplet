@@ -1,8 +1,5 @@
 # A Method for Recognition of Cattle Noseprint based Fusing Swin Transformer and Triplet Network
 
-## Introduction
-
-
 
 ## Installation
 
