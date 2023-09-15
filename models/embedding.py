@@ -565,7 +565,10 @@ def swin_small_patch4_window7_224(num_classes: int = 1000, **kwargs):
 def SwT_embedding(num_classes=12, model_path=False, embedding_size=128, **kwargs):
     model = swin_small_patch4_window7_224(num_classes=num_classes, embedding_size=embedding_size, **kwargs)
 
-    weights_init = torch.load(model_path)["model_state"]
+    if torch.cuda.is_available():
+        weights_init = torch.load(model_path)["model_state"]
+    else:
+        weights_init = torch.load(model_path, map_location=torch.device('cpu'))["model_state"]
     model.load_state_dict(weights_init)
 
     return model
