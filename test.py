@@ -175,7 +175,7 @@ def test(args):
     train_labels = np.zeros((1))
     for images, _, _, labels, _, img_path in tqdm(train_dataloder, desc=f"Inferring train embeddings"):
         # images = Variable(images.cuda())
-	images = Variable(images).to(device)
+        images = Variable(images).to(device)
         outputs = model(images)
         embeddings = outputs.data    
         embeddings = embeddings.cpu().numpy()
@@ -203,7 +203,7 @@ def test(args):
     error = {}
     for images, _, _, labels, _, img_path in tqdm(test_dataloder, desc=f"Inferring test embeddings"):
         # images = Variable(images.cuda())
-	images = Variable(images).to(device)
+        images = Variable(images).to(device)
         outputs = model(images)
         embeddings = outputs.data    
         embeddings = embeddings.cpu().numpy()
