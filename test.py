@@ -5,6 +5,8 @@ import argparse
 import numpy as np
 from tqdm import tqdm
 from PIL import Image
+
+import torch
 from torch.utils.data import Dataset
 from torch.autograd import Variable
 from torchvision import transforms
@@ -155,6 +157,8 @@ def test(args):
 
         num_workers = min([os.cpu_count(), args.batch_size if args.batch_size > 1 else 0, 8])  
 
+    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+
     train_dataloder, test_dataloder, train_dataset, test_dataset = getloader(args.data_root, 
                                                             args.batch_size, num_workers, args.train_ratio_txt)
     neigh = KNeighborsClassifier(n_neighbors=5, n_jobs=-4)
@@ -162,15 +166,16 @@ def test(args):
 
     
     model = SwT_embedding(num_classes=train_dataset.getnumclass(), model_path=args.model_path, 
-                          embedding_size=args.embedding_size)
-    model.cuda()
+                          embedding_size=args.embedding_size).to(device)
+    # model.cuda()
     model.eval()
     
     # train inferEmbeddings
     train_embeddings = np.zeros((1,args.embedding_size))
     train_labels = np.zeros((1))
     for images, _, _, labels, _, img_path in tqdm(train_dataloder, desc=f"Inferring train embeddings"):
-        images = Variable(images.cuda())
+        # images = Variable(images.cuda())
+	images = Variable(images).to(device)
         outputs = model(images)
         embeddings = outputs.data    
         embeddings = embeddings.cpu().numpy()
@@ -197,7 +202,8 @@ def test(args):
     total = 0
     error = {}
     for images, _, _, labels, _, img_path in tqdm(test_dataloder, desc=f"Inferring test embeddings"):
-        images = Variable(images.cuda())
+        # images = Variable(images.cuda())
+	images = Variable(images).to(device)
         outputs = model(images)
         embeddings = outputs.data    
         embeddings = embeddings.cpu().numpy()
