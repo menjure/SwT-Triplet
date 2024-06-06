@@ -49,5 +49,4 @@ pages = {523–527},
 numpages = {5},
 series = {ICAICE '23}
 }
-
 ```
