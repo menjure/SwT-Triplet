@@ -38,5 +38,20 @@ python test.py --model_path weights/best_acc_weights.pth
 If you use our code or dataset in your research, please cite with:
 
 ```(python)
+@inproceedings{10.1145/3652628.3652716,
+author = {Zhong, Minyue and Tan, Yao and Yu, Siyi},
+title = {A Method for Recognition of Cattle Noseprint based Fusing Swin Transformer and Triplet Network},
+year = {2024},
+isbn = {9798400708831},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3652628.3652716},
+doi = {10.1145/3652628.3652716},
+booktitle = {Proceedings of the 4th International Conference on Artificial Intelligence and Computer Engineering},
+pages = {523–527},
+numpages = {5},
+location = {<conf-loc>, <city>Dalian</city>, <country>China</country>, </conf-loc>},
+series = {ICAICE '23}
+}
 
 ```
